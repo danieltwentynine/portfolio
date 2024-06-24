@@ -1,0 +1,62 @@
+#whoami p {
+  color: #eee;
+}
+#whoami ul {
+  list-style: none;
+}
+#whoami li {
+  display: inline;
+}
+#whoami li i {
+  font-size: 35px;
+  padding-right: 8px;
+  color: #eee;
+}
+#whoami #myPortrait {
+  height: 360px;
+  margin-bottom: 20px;
+  margin-top: -50px;
+}
+#whoami button {
+  margin-bottom: 20px;
+}
+
+#contact ul {
+  list-style: none;
+  text-align: center;
+}
+#contact ul li a {
+  text-decoration: none;
+  color: #bb50ec;
+}
+#contact ul li a i {
+  color: #eee;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #181818;
+}
+
+.title {
+  font-weight: 300;
+  color: #eee;
+  border-bottom: 1px solid #bb50ec;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #1f1f1f;
+}
+.nav-pills .nav-link {
+  color: #eee;
+}
+
+#main {
+  margin: 10px;
+  padding: 10px;
+  background-color: #303030;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */

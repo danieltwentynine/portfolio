@@ -1,0 +1,33 @@
+@use '../config/colors';
+
+#whoami{
+
+    p {
+        color: colors.$textColor;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        display: inline;
+    }
+
+    li i {
+        font-size: 35px;
+        padding-right: 8px;
+        color: colors.$textColor;
+    }
+
+    #myPortrait {
+        height: 360px;
+        margin-bottom: 20px;
+        margin-top: -50px;
+    }
+
+    button {
+        margin-bottom: 20px;
+    }
+
+}

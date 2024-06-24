@@ -1,0 +1,35 @@
+@use 'config/fonts';
+@use'config/colors';
+@use 'sections/mission';
+@use 'sections/whoami';
+@use 'sections/contacts';
+
+body {
+    font-family: fonts.$mainFont;
+    background-color: colors.$bgColor;
+}
+
+.title {
+    font-weight: 300;
+    color: colors.$textColor;
+    border-bottom: 1px solid colors.$secColor;
+}
+
+.nav-pills {
+
+    .nav-link.active {
+        background-color: colors.$bgBtn;
+    }
+    
+    .nav-link {
+        color: colors.$textColor;
+    }
+}
+
+#main {
+    margin: 10px;
+    padding: 10px;
+    background-color: #303030;
+    height: 100%;
+    border-radius: 10px;
+}
