@@ -21,6 +21,54 @@
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 1024px) {
+  #whoami #myPortrait {
+    margin-top: -90px;
+    height: 345px;
+  }
+  #whoami .col-md-2 {
+    display: inline;
+  }
+  #whoami #tools {
+    text-align: center;
+  }
+  #whoami .title {
+    margin-top: 40px;
+    padding: 8px;
+  }
+  #whoami li i:hover {
+    text-shadow: 2px 2px 4px rgba(142, 0, 170, 0.5);
+  }
+  #whoami p {
+    padding: 0;
+    margin: 0;
+  }
+  #whoami button {
+    margin-top: 8px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #whoami #myPortrait {
+    margin-top: -80px;
+    height: 250px;
+  }
+  #whoami .col-md-2 {
+    display: inline;
+  }
+  #whoami #tools {
+    text-align: center;
+  }
+  #whoami .title {
+    margin-top: 0;
+    padding: 8px;
+  }
+  #whoami p {
+    font-size: 10px;
+  }
+  #whoami button {
+    margin-top: 8px;
+  }
+}
 #contact ul {
   list-style: none;
   text-align: center;
@@ -57,6 +105,43 @@ body {
   background-color: #303030;
   height: 100%;
   border-radius: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    overflow: hidden;
+  }
+  aside {
+    display: flex;
+  }
+  aside nav {
+    margin-top: 190px;
+  }
+  #main {
+    height: 550px;
+  }
+  .sub-title {
+    margin-top: 120px;
+    border-bottom: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  aside {
+    display: flex;
+  }
+  aside nav {
+    margin-top: 90px;
+  }
+  aside nav .nav-link {
+    font-size: 15px;
+  }
+  #main {
+    height: 450px;
+  }
+  .sub-title {
+    margin-top: 40px;
+    border-bottom: none;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

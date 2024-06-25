@@ -33,3 +33,51 @@ body {
     height: 100%;
     border-radius: 10px;
 }
+
+@media screen and (min-width:1024px) {
+    body {
+        overflow: hidden;
+    }
+
+    aside {
+        display: flex;
+        
+        nav {
+            margin-top: 190px;
+        }
+
+    }
+
+    #main {
+        height: 550px;
+    }
+
+    .sub-title {
+        margin-top: 120px;
+        border-bottom: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    aside {
+        display: flex;
+        
+        nav {
+            margin-top: 90px;
+
+            .nav-link {
+                font-size: 15px;
+            }
+        }
+
+    }
+
+    #main {
+        height: 450px;
+    }
+
+    .sub-title {
+        margin-top: 40px;
+        border-bottom: none;
+    }
+}

@@ -31,3 +31,72 @@
     }
 
 }
+
+@media screen and (min-width: 1024px){
+    #whoami {
+
+        #myPortrait {
+            margin-top: -90px;
+            height: 345px;
+        }
+
+        .col-md-2 {
+            display: inline;
+        }
+
+        #tools {
+            text-align: center;
+        }
+
+        .title {
+            margin-top: 40px;
+            padding: 8px;
+        }
+
+        li i:hover {
+            text-shadow: 2px 2px 4px rgba(142, 0, 170, 0.5);
+        }
+
+        p {
+            padding: 0;
+            margin: 0;
+        }
+
+        button {
+            margin-top: 8px;
+        }
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #whoami {
+
+        #myPortrait {
+            margin-top: -80px;
+            height: 250px;
+        }
+
+        .col-md-2 {
+            display: inline;
+        }
+
+        #tools {
+            text-align: center;
+        }
+
+        .title {
+            margin-top: 0;
+            padding: 8px;
+        }
+
+        p {
+            font-size: 10px;
+        }
+
+        button {
+            margin-top: 8px;
+        }
+
+    }
+}
