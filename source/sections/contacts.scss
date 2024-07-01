@@ -6,13 +6,14 @@
         list-style:none;
         text-align: center;
 
-        li a{
-            text-decoration: none;
-            color: colors.$secColor;
-            i {
-                color: colors.$textColor;
+        li {
+            a{
+                text-decoration: none;
+                color: colors.$secColor;
+                i {
+                    color: colors.$textColor;
+                }
             }
-
         }
     }
 

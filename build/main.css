@@ -37,7 +37,7 @@
     padding: 8px;
   }
   #whoami li i:hover {
-    text-shadow: 2px 2px 4px rgba(142, 0, 170, 0.5);
+    text-shadow: 2px 2px 4px rgba(80, 236, 119, 0.5215686275);
   }
   #whoami p {
     padding: 0;
@@ -75,7 +75,7 @@
 }
 #contact ul li a {
   text-decoration: none;
-  color: #bb50ec;
+  color: #50ec77;
 }
 #contact ul li a i {
   color: #eee;
@@ -89,7 +89,7 @@ body {
 .title {
   font-weight: 300;
   color: #eee;
-  border-bottom: 1px solid #bb50ec;
+  border-bottom: 1px solid #50ec77;
 }
 
 .nav-pills .nav-link.active {
