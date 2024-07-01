@@ -108,9 +108,6 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-  body {
-    overflow: hidden;
-  }
   aside {
     display: flex;
   }
